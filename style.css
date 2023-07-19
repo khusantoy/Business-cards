@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #212A3E;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box_one {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_two {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.large_box_item {
+    width: 65%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 40px;
+    transition: all 0.3s;
+}
+
+.t-container {
+    width: 90%;
+    margin: auto;
+}
+
+.t-container h1 {
+    font-size: 45px;
+}
+
+.box_item {
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 90px;
+    transition: all 0.3s;
+}
+
+.box_item:nth-child(1) {
+    background-color: #93C6E7;
+}
+
+.box_item:nth-child(2) {
+    background-color: #FBC252;
+}
+
+.box_item:nth-child(3) {
+    background-color: #B2B2B2;
+}
+
+.small_box_item {
+    width: 30%;
+    height: 100%;
+    background-color: #8758FF;
+    border-radius: 25px;
+    margin-top: 40px;
+    transition: all 0.3s;
+}
+
+.l-container {
+    width: 80%;
+    margin: auto;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: grey;
+    transition: all 0.3s;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box_item p {
+    line-height: 25px;
+}
+
+/*effect*/
+
+.box_item:hover {
+    transform: scale(1.1);
+}
+
+.large_box_item:hover {
+    transform: scale(1.1);
+}
+
+.small_box_item:hover {
+    transform: scale(1.1);
+}
+
+.small_box_item:hover .first-icon {
+    color: #8758FF;
+}
+
+.box_item:nth-child(1):hover .second-icon {
+    color: #93C6E7;
+}
+
+.box_item:nth-child(2):hover .third-icon {
+    color: #FBC252;
+}
+
+.box_item:nth-child(3):hover .four-icon {
+    color: #B2B2B2;
+}
